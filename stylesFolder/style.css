@@ -1,0 +1,129 @@
+body {
+    padding: 0;
+    font-family: -apple-system;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+    z-index: 1;
+}
+
+body:before {
+    position: absolute;
+    content: url(https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg);
+    left:0;
+    top:0;
+    opacity: 0.5;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+
+h1 {
+    width: 460px;
+    font-family: "Georgia", serif;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h2 {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #cccccc;
+    clear: both;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.highlight  {
+    background-color: blue;
+}
+.site-header {
+    margin-bottom: 30px;
+}
+
+.skills-item {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 10px solid #c4c4c4;
+    color: blue;
+}
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.site-header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.features {
+    margin-bottom: 30px;
+}
+
+.features p {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 0 5px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.feature-image   {
+    width: 200px;
+    height: 100px;
+}
+
+.feature-kitten {
+    padding-top: 60px;
+    background-image: url("img/bottle.svg");
+}
+
+.feature-cat {
+    padding-top: 60px;
+    background-image: url("img/cat.svg");
+}
+
+.feature-train {
+    padding-top: 60px;
+    background-image: url("img/whistle.svg");
+}
+
+.skills-list {
+    padding: 0;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #999999;
+}
+
+#background1 {
+    width: 335px;
+    float: right;
+    filter: opacity(100%);
+}
+
+.navigation {
+    position: relative;
+    z-index:1;
+    overflow:hidden;
+}
+
+.navigation:before {
+    z-index:-1;
+    position:absolute;
+    left:0;
+    top:0;
+    content: url(https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg);
+    opacity:0.2;
+
+}
+
+background-image: url(https://rozetked.me/images/uploads/dwoilp3BVjlE.jpg);
