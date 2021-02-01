@@ -3,7 +3,7 @@
     --color-secondary: #00d9ff;
     --color-accent: #ff3400;
     --color-headings: #1b0760;
-    --color-body:  #918ca4;
+    --color-body: #918ca4;
 }
 
 /* Topography */
@@ -64,6 +64,7 @@ p {
 a {
     text-decoration: none;
 }
+
 .link-arrow {
     color: var(--color-accent);
     text-transform: uppercase;
@@ -81,7 +82,7 @@ a {
     transition: margin 0.15s;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .link-arrow {
         font-size: 1.5rem;
     }
@@ -110,12 +111,41 @@ a {
     font-size: 1.6rem;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .badge {
         font-size: 1.5rem;
     }
 
     .badge--small {
         font-size: 1.2rem;
+    }
+}
+
+/* Lists */
+.list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings);
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.list--tick {
+    list-style-image: url(../Images/Tick.svg);
+    padding-left: 3rem;
+
+}
+
+.list--tick .list__item {
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .list--tick .list__item {
+        padding-left: 0;
     }
 }
