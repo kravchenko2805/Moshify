@@ -23,11 +23,10 @@
     height: 100px;
     background-color: red;
     margin-left: 100px;
-    ani;
 }
 
 .boxBlack:hover {
-    transform: perspective(200px) rotateY(30deg);
+    transform: perspective(200px) scale(1.5);
 
 }
 
