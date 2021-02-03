@@ -516,7 +516,7 @@ a {
     position: relative;
 }
 
-.grid .icon-container {
+.grid .icon__absolute {
     position: absolute;
     top: 3rem;
     right: -32px;
@@ -776,6 +776,27 @@ a {
     }
 }
 
+/* Article */
+.feature {
+    gap: 4rem 2rem;
+    margin: 10rem 0;
+}
+.feature:first-of-type {
+    margin-top: 4rem;
+}
 
+.feature__heading {
+    margin-top: 1rem;
+}
 
+.feature__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }
+
+}
 
