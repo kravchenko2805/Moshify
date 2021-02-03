@@ -31,6 +31,7 @@ h1, h2, h3 {
     color: var(--color-headings);
     margin-top: 0;
     margin-bottom: 1rem;
+    line-height: 1.1;
 }
 
 h1 {
@@ -327,7 +328,7 @@ a {
     background-color: #02cdf1;
 }
 
-.card__header, .card__body{
+.card__header, .card__body {
     display: inline-block;
     white-space: normal;
     width: 100%;
@@ -394,6 +395,7 @@ a {
         font-size: 1.7rem;
     }
 }
+
 /* Media */
 .media {
     display: flex;
@@ -457,7 +459,7 @@ a {
     }
 
     .quote__author {
-       font-size: 2.4rem;
+        font-size: 2.4rem;
     }
 
     .quote__company {
@@ -680,3 +682,32 @@ a {
         border: 0;
     }
 }
+
+/* Hero */
+.hero {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+
+.hero__tagline {
+    font-size: 2rem;
+    color: #b9c3cf;
+    letter-spacing: 1px;
+    margin: 2rem 0 5rem;
+}
+
+.hero__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 0;
+    }
+
+    .hero__content {
+        text-align: left;
+        align-self: center;
+    }
+
+}
+
